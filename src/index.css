@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+
+  --bg-body: #e1e1e1;
+  --bg-color: #1e1e1e;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg-body);
+  color: var(--bg-color);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
